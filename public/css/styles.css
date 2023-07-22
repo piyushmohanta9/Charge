@@ -2,8 +2,19 @@ body {
   font-family: 'Poppins', sans-serif;;
 }
 
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
 header {
-  background-color: blue;
+  background-color: #144272;
   height: 100vh;
   border: 1px solid black;
   color: white;
@@ -15,10 +26,20 @@ section {
   border: 1px solid black;
 }
 
+.section-1 {
+  background-color: #F15A59;
+  color: white;
+}
+
 footer {
   background-color: green;
   height: 500px;
   border: 1px solid black;
+}
+
+.nav-pane-boss-level {
+  background-color: #0A2647;
+  margin-top: 0;
 }
 
 .top-pane {
@@ -30,6 +51,7 @@ footer {
 .logo-pane-inner {
   display: flex;
   justify-content: space-between;
+  height: 40px;
 }
 
 .logo-pane-outer {
@@ -57,6 +79,7 @@ footer {
   justify-content: space-between;
   width: 500px;
   list-style-type: none;
+  font-size: 15px;
   font-weight: 600;
 }
 
@@ -64,6 +87,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 200px;
+  font-size: 15px;
   list-style-type: none;
   font-weight: 600;
 }
@@ -73,7 +97,7 @@ footer {
 }
 
 .nav-ul-1-li:hover {
-  color: rgb(202, 202, 202);
+  color: #ffd493;
 }
 
 .nav-ul-2-li {
@@ -81,10 +105,35 @@ footer {
 }
 
 .nav-ul-2-li:hover {
-  color: rgb(202, 202, 202);
+  color: #ffd493;
 }
 
 .link-nav-1 {
   text-decoration: none;
   color: white;
+}
+
+.heading-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-area-text {
+  margin-left: 100px;
+}
+
+
+.heading-area-text-title {
+  margin: 0;
+}
+
+.heading-area-text-title:hover {
+  color: greenyellow;
+}
+
+.heading-area-text-tagline {
+  font-weight: 400;
+  margin: 0;
 }
