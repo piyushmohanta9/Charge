@@ -1,7 +1,16 @@
+body {
+  font-family: 'Poppins', sans-serif;;
+}
+
+li {
+  text-decoration: none;
+}
+
 header {
   background-color: blue;
   height: 100vh;
   border: 1px solid black;
+  color: white;
 }
 
 section {
@@ -15,3 +24,51 @@ footer {
   height: 500px;
   border: 1px solid black;
 }
+
+.top-pane {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 10px 20px;
+}
+
+.logo-pane-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-pane-outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-pane {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ul-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.nav-ul-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  list-style-type: none;
+  font-weight: 600;
+}
+
