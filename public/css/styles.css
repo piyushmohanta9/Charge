@@ -2,10 +2,6 @@ body {
   font-family: 'Poppins', sans-serif;;
 }
 
-li {
-  text-decoration: none;
-}
-
 header {
   background-color: blue;
   height: 100vh;
@@ -72,3 +68,23 @@ footer {
   font-weight: 600;
 }
 
+.nav-ul-1-li {
+  text-decoration: none;
+}
+
+.nav-ul-1-li:hover {
+  color: rgb(202, 202, 202);
+}
+
+.nav-ul-2-li {
+  text-decoration: none;
+}
+
+.nav-ul-2-li:hover {
+  color: rgb(202, 202, 202);
+}
+
+.link-nav-1 {
+  text-decoration: none;
+  color: white;
+}
